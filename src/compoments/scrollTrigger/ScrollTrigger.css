@@ -1,0 +1,40 @@
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(161, 161, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollBox1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(lightgreen, green);
+  border-radius: 10px;
+}
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(62, 62, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollBox2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(lightgreen, green);
+  border-radius: 10px;
+}
+
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

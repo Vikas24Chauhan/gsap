@@ -1,0 +1,20 @@
+.timeline-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  padding-top: 20px;
+}
+
+.timeline-box1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(lightgreen, green);
+  border-radius: 10px;
+}
+
+.timeline-box2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(lightgreen, green);
+  border-radius: 10px;
+}
