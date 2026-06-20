@@ -1,0 +1,61 @@
+.navbar-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1509803874385-db7c23652552?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdWQlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.362);
+  backdrop-filter: blur(12px);
+}
+
+.navbar-logo h1 {
+  font-size: 28px;
+}
+
+.navbar-logo p {
+  font-size: 28px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.navbar-content {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.362);
+  top: 0;
+  right: -30%;
+  backdrop-filter: blur(12px);
+  padding: 100px 40px;
+}
+
+.navbar-content h4 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.navbar-close {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 40px;
+  transition: transform 0.5s ease;
+}
+
+.navbar-close:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
