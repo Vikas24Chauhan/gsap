@@ -6,6 +6,7 @@ import Stagger from "./compoments/stagger/Stagger";
 import Timeline from "./compoments/timeline/Timeline";
 import ScrollTrigger from "./compoments/scrollTrigger/ScrollTrigger";
 import Navbar from "./projects/navbar/Navbar";
+import Text from "./projects/text/Text";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Stagger /> */}
       {/* <Timeline /> */}
       {/* <ScrollTrigger /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <Text />
     </div>
   );
 }
