@@ -8,6 +8,7 @@ import ScrollTrigger from "./compoments/scrollTrigger/ScrollTrigger";
 import Navbar from "./projects/navbar/Navbar";
 import Text from "./projects/text/Text";
 import Marquee from "./projects/marquee/Marquee";
+import SVG from "./projects/svg/SVG";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <ScrollTrigger /> */}
       {/* <Navbar /> */}
       {/* <Text /> */}
-      <Marquee />
+      {/* <Marquee /> */}
+      <SVG />
     </div>
   );
 }
