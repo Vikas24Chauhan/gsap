@@ -7,6 +7,7 @@ import Timeline from "./compoments/timeline/Timeline";
 import ScrollTrigger from "./compoments/scrollTrigger/ScrollTrigger";
 import Navbar from "./projects/navbar/Navbar";
 import Text from "./projects/text/Text";
+import Marquee from "./projects/marquee/Marquee";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Timeline /> */}
       {/* <ScrollTrigger /> */}
       {/* <Navbar /> */}
-      <Text />
+      {/* <Text /> */}
+      <Marquee />
     </div>
   );
 }
