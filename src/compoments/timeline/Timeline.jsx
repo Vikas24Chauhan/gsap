@@ -4,6 +4,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 function Timeline() {
+  //  A Timeline in GSAP is a way to sequence multiple animations and control them together.
+
   const tl = gsap.timeline();
 
   useGSAP(() => {

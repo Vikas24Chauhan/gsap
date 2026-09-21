@@ -4,6 +4,41 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 function To() {
+  // useGSAP(() => {
+  //   gsap.to(".to-box", {
+  //     x: 1200,
+  //     duration: 2,
+  //   });
+  // });
+
+  // useGSAP(() => {
+  //   gsap.to(".to-box", {
+  //     x: 1200,
+  //     duration: 2,
+  //     delay: 1,
+  //   });
+  // });
+
+  // useGSAP(() => {
+  //   gsap.to(".to-box", {
+  //     x: 1200,
+  //     duration: 2,
+  //     delay: 1,
+  //     rotate: 360,
+  //   });
+  // });
+
+  // useGSAP(() => {
+  //   gsap.to(".to-box", {
+  //     x: 1200,
+  //     duration: 2,
+  //     delay: 1,
+  //     rotate: 360,
+  //     // repeat: 1,
+  //     repeat: -1,
+  //   });
+  // });
+
   useGSAP(() => {
     gsap.to(".to-box", {
       x: 1200,

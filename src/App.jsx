@@ -17,11 +17,11 @@ function App() {
       {/* <From /> */}
       {/* <Stagger /> */}
       {/* <Timeline /> */}
-      {/* <ScrollTrigger /> */}
+      <ScrollTrigger />
       {/* <Navbar /> */}
       {/* <Text /> */}
       {/* <Marquee /> */}
-      <SVG />
+      {/* <SVG /> */}
     </div>
   );
 }

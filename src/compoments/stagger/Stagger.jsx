@@ -4,6 +4,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 function Stagger() {
+  // Stagger in GSAP means animating multiple elements one after another with a small delay between each element.
+
   useGSAP(() => {
     gsap.to(".stagger-h1", {
       y: -100,
