@@ -9,15 +9,19 @@ import Navbar from "./projects/navbar/Navbar";
 import Text from "./projects/text/Text";
 import Marquee from "./projects/marquee/Marquee";
 import SVG from "./projects/svg/SVG";
+import Easing from "./compoments/easing/Easing";
+import FromTo from "./compoments/fromTo/FromTo";
 
 function App() {
   return (
     <div>
       {/* <To /> */}
       {/* <From /> */}
+      <FromTo />
       {/* <Stagger /> */}
       {/* <Timeline /> */}
-      <ScrollTrigger />
+      {/* <ScrollTrigger /> */}
+      {/* <Easing /> */}
       {/* <Navbar /> */}
       {/* <Text /> */}
       {/* <Marquee /> */}

@@ -4,6 +4,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 function To() {
+  // to :- initial to final
+
   // useGSAP(() => {
   //   gsap.to(".to-box", {
   //     x: 1200,

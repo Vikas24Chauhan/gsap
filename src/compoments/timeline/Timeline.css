@@ -15,6 +15,20 @@
 .timeline-box2 {
   width: 200px;
   height: 200px;
-  background: linear-gradient(lightgreen, green);
+  background: linear-gradient(lightblue, blue);
+  border-radius: 10px;
+}
+
+.timeline-box3 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(rgb(255, 177, 177), red);
+  border-radius: 10px;
+}
+
+.timeline-box4 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(rgb(235, 207, 155), orange);
   border-radius: 10px;
 }

@@ -4,6 +4,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 function From() {
+  // from :- final to initial
+
   // useGSAP(() => {
   //   gsap.from(".from-box", {
   //     x: "1200px",
