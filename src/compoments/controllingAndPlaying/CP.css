@@ -1,0 +1,34 @@
+.cp-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  padding-top: 20px;
+}
+
+.cp-box1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(lightgreen, green);
+  border-radius: 10px;
+}
+
+.cp-box2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(lightblue, blue);
+  border-radius: 10px;
+}
+
+.cp-box3 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(rgb(255, 177, 177), red);
+  border-radius: 10px;
+}
+
+.cp-box4 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(rgb(235, 207, 155), orange);
+  border-radius: 10px;
+}

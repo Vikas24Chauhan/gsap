@@ -11,17 +11,25 @@ import Marquee from "./projects/marquee/Marquee";
 import SVG from "./projects/svg/SVG";
 import Easing from "./compoments/easing/Easing";
 import FromTo from "./compoments/fromTo/FromTo";
+import CP from "./compoments/controllingAndPlaying/CP";
+import LifecycleCallbacks from "./compoments/lifecycleCallbacks/LifecycleCallbacks";
+import Set from "./compoments/set/Set";
 
 function App() {
   return (
     <div>
       {/* <To /> */}
       {/* <From /> */}
-      <FromTo />
+      {/* <FromTo /> */}
+      {/* <Easing /> */}
+      <Set />
       {/* <Stagger /> */}
       {/* <Timeline /> */}
+      {/* <CP /> */}
+      {/* <LifecycleCallbacks /> */}
       {/* <ScrollTrigger /> */}
-      {/* <Easing /> */}
+
+      {/* ------------- Small Projects --------------- */}
       {/* <Navbar /> */}
       {/* <Text /> */}
       {/* <Marquee /> */}
