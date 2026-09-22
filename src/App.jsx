@@ -14,6 +14,7 @@ import FromTo from "./compoments/fromTo/FromTo";
 import CP from "./compoments/controllingAndPlaying/CP";
 import LifecycleCallbacks from "./compoments/lifecycleCallbacks/LifecycleCallbacks";
 import Set from "./compoments/set/Set";
+import ResponsiveAnimation from "./compoments/responsiveAnimation/ResponsiveAnimation";
 
 function App() {
   return (
@@ -22,12 +23,13 @@ function App() {
       {/* <From /> */}
       {/* <FromTo /> */}
       {/* <Easing /> */}
-      <Set />
+      {/* <Set /> */}
       {/* <Stagger /> */}
       {/* <Timeline /> */}
       {/* <CP /> */}
       {/* <LifecycleCallbacks /> */}
       {/* <ScrollTrigger /> */}
+      <ResponsiveAnimation />
 
       {/* ------------- Small Projects --------------- */}
       {/* <Navbar /> */}

@@ -6,6 +6,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+// ScrollTrigger is a GSAP plugin that lets you control an animation based on the user's scroll position.
+// In GSAP ScrollTrigger, toggleActions controls what happens to your animation when you scroll into and out of the trigger area.
+// Clip path
+
 function ScrollTriggerComponent() {
   useGSAP(() => {
     gsap.from(".page1 .scrollBox1", {
@@ -30,6 +34,7 @@ function ScrollTriggerComponent() {
         end: "top 40%",
         scrub: 1,
         pin: true,
+        // toggleActions: "restart none none none",
       },
     });
   });
